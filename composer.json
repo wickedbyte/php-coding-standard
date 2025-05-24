@@ -1,0 +1,29 @@
+{
+  "name": "wickedbyte/coding-standard",
+  "description": "WickedByte PHP Coding Standards",
+  "type": "phpcodesniffer-standard",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andy Snell",
+      "email": "andy@wickedbyte.com"
+    }
+  ],
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "WickedByte\\CodingStandard\\": "WickedByte/"
+    }
+  },
+  "require": {
+    "php": "~8.3.0 || ~8.4.0 || ~8.5.0",
+    "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+    "slevomat/coding-standard": "^8.18",
+    "squizlabs/php_codesniffer": "^3.13"
+  }
+}
