@@ -195,7 +195,11 @@
     </rule>
 
     <!-- Zero spaces are required after the unary cast operators -->
-    <rule ref="Generic.Formatting.NoSpaceAfterCast"/>
+    <rule ref="Generic.Formatting.SpaceAfterCast">
+        <properties>
+            <property name="spacing" value="0"/>
+        </properties>
+    </rule>
 
     <!-- No space after the unary not (!) operator -->
     <rule ref="Generic.Formatting.SpaceAfterNot">
