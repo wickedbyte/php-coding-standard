@@ -20,6 +20,11 @@
       "WickedByte\\CodingStandard\\": "WickedByte/"
     }
   },
+  "autoload-dev": {
+    "psr-4": {
+      "WickedByte\\CodingStandard\\Tests\\": "tests/"
+    }
+  },
   "require": {
     "php": "^8.2",
     "dealerdirect/phpcodesniffer-composer-installer": "^1.2",
